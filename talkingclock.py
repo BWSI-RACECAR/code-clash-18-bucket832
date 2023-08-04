@@ -96,6 +96,8 @@ class Solution:
             ten, one = minutes[0], minutes[1]
             if ten == '1':
                  return f"It's {str_hour}{teens[minutes]} {ind}"     
+            if ten == '0' and one == '0':
+                return f"It's {str_hour}{ind}"   
             str_ten = tens[ten]  + ' '  
             str_one = ones[one] + ' '
             return f"It's {str_hour}{str_ten}{str_one}{ind}"
