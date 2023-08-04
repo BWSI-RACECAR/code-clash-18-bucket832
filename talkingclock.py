@@ -79,14 +79,14 @@ class Solution:
             }
             ones = {
                 '1': "one",
-                '2': "one",
-                '3': "one",
-                '4': "one",
-                '5': "one",
-                '6': "one",
-                '7': "one",
-                '8': "one",
-                '9': "one",
+                '2': "two",
+                '3': "three",
+                '4': "four",
+                '5': "five",
+                '6': "six",
+                '7': "seven",
+                '8': "eight",
+                '9': "nine",
             }
             #TODO: Write code below to return a string with the solution to the prompt.
             hours, minutes = input_time.split(':')
