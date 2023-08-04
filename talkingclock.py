@@ -62,8 +62,8 @@ class Solution:
                 '0': "oh",
                 '2': "twenty",
                 '3': "thirty",
-                '4': "thirty",
-                '5': "thirty",
+                '4': "forty",
+                '5': "fifty",
             }  
             teens = {
                 '10': "ten",
@@ -78,6 +78,7 @@ class Solution:
                 '19': "nineteen",
             }
             ones = {
+                '0': "",
                 '1': "one",
                 '2': "two",
                 '3': "three",
