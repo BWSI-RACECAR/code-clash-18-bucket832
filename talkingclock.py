@@ -59,6 +59,7 @@ class Solution:
                  '23':"eleven",
             }
             tens = {
+                '0': "oh",
                 '2': "twenty",
                 '3': "thirty",
                 '4': "thirty",
@@ -89,7 +90,7 @@ class Solution:
             }
             #TODO: Write code below to return a string with the solution to the prompt.
             hours, minutes = input_time.split(':')
-            ind = 'pm' if hours >= 12 else 'am'
+            ind = 'pm' if int(hours) >= 12 else 'am'
             str_hour = hour[hours] + ' '
             ten, one = minutes[0], minutes[1]
             if ten == '1':
